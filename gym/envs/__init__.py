@@ -158,6 +158,7 @@ register(
 register(
     id='InvertedPendulum-v1',
     entry_point='gym.envs.mujoco:InvertedPendulumEnv',
+    reward_threshold=950.0,
 )
 
 register(
